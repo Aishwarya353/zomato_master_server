@@ -77,7 +77,7 @@ Router.get(
   passport.authenticate("google", { failureRedirect: "/" }),
   (req, res) => {
     return res.redirect(
-      `https://unruffled-hopper-ba4778.netlify.app/google/${req.session.passport.user.token}`
+      `https://sharp-villani-c5e550.netlify.app/google/${req.session.passport.user.token}`
     );
   }
 );
